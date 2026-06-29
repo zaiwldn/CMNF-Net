@@ -1,21 +1,5 @@
 # CMNF-Net
-Official PyTorch implementation of the paper:
 
-> **CMNF-Net: Cross-modal Multi-scale Nonlinear Fusion Network for Unsupervised Video Object Segmentation**
->
-> Pengxin Xu, Yong Lin*
->
-> Ningxia Key Laboratory of Artificial Intelligence and Technology Education, School of Physics and Electronic Information Engineering, Ningxia Normal University, Ningxia 756000, China
->
-> *Corresponding author: linyong@nxnu.edu.cn
-
-
-## Abstract
-Unsupervised Video Object Segmentation (UVOS) aims to segment salient objects in video sequences without manual annotations. Existing methods still face challenges of coarse object boundaries, limited small-region accuracy, and weak robustness under dynamic background interference, which primarily arise from insufficient multi-scale representation and weak cross-modal interaction.
-
-To address these limitations, we propose **CMNF-Net**, a dual-stream framework that effectively exploits appearance and optical flow cues. At the encoder stage, we introduce a **Hierarchical Feature Fusion (HFF)** module to enhance both semantic representations and fine-grained details via top-down semantic guidance and cross-scale collaboration. We further design a **Distance-Aware Local Nonlinear Fusion (DALNF)** module that dynamically generates fusion weights through geometric distances in latent space. Combined with a gated dual-stream structure and progressive multi-scale decoder, it effectively alleviates feature misalignment and improves foreground localization and boundary recovery.
-
-Extensive experiments on DAVIS 2016, FBMS, and YouTube-Objects demonstrate that CMNF-Net achieves state-of-the-art performance, with a **J&F** score of **89.4%** on DAVIS 2016, a **J** score of **83.7%** on FBMS, and a **J** score of **77.4%** on YouTube-Objects. Ablation studies further confirm the effectiveness of both HFF and DALNF.
 
 ## Environment Requirements
 - Python 3.8+
