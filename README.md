@@ -68,6 +68,6 @@ python run.py --test
 Code and models are provided for non-commercial research purposes only.\
 For any questions, please contact:
 ```
-E-mail: 1147261824xu@gmail.com
-E-mail: linyong@nxnu.edu.cn
+Pengxin Xu: 1147261824xu@gmail.com
+Yong Lin: linyong@nxnu.edu.cn
 ```
